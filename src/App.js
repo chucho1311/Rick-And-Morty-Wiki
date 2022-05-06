@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LocationContainer from "./components/LocationContainer";
+// import {useEffect, useState} from "react";
 
 function App() {
+
+ 
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <img className="image" src='https://larepublica.pe/resizer/91FvLyr6sNkx6Q9NycJLy4nN0oE=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/PCNCJ6R3FFGITHPO5YQRH3RQW4.jpg' alt=''/>
+        <LocationContainer/>
       </header>
     </div>
   );
